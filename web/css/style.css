@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: aquamarine;
+    height: 50px;
+    width:100%;
+    text-decoration-style: none;
+
+
+}
+nav ul {
+    list-style: none;
+    float:right;
+}
+nav ul li{
+    float:left;
+    border: 5px;
+}
