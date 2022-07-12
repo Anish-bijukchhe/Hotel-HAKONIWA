@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+
+.loginPanel{
+    height: calc(100vh);
+    width: 400px;
+    border: 15px solid rgba(18, 71, 229, 0.269);
+    padding: 60px;
+    margin: 20px;
+    line-height: 20px;
+    float: left;
+
+}
+.board
+{
+    float:right;
+    list-style: none;
+    text-align: justify;
+    background-image: url("images/");
+}
+

@@ -1,6 +1,8 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 nav{
     background-color: aquamarine;
@@ -13,8 +15,15 @@ nav{
 nav ul {
     list-style: none;
     float:right;
+    margin: 10px;
+    padding:5px;
 }
 nav ul li{
     float:left;
     border: 5px;
+    margin-left: 15px;
+}
+.showcase{
+    text-align: center;
+
 }
