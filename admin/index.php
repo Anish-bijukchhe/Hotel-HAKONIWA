@@ -11,5 +11,13 @@
     <h1>
         Welcome to admin
     </h1>
+    <form action="POST">
+        <label for="admin">Admin ID:</label>
+        <input type="text" name="admin">
+        <br>
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password">
+        <button type="submit"> submit</button>
+    </form>
 </body>
 </html>
