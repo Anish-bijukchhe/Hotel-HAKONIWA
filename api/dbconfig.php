@@ -1,13 +1,7 @@
 <?php
 
- $username = "root";
-$password = "";
-$database = "hotel_Hakoniwa";
-
-$mysqli = new mysqli("localhost", $username, $password, $database);
-
-if($conn->connect_error)
-{
-  echo "Error in connecting Database";
-}
+define("$DB_SERVER","localhost");
+define("$DB_USER","root");
+define("$DB_PASSWORD","");
+define("$DB_NAME","hotel_Hakoniwa");
 ?>
