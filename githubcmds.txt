@@ -1,0 +1,26 @@
+### Git Commands
+-   git init - This command makes the directory a Git repository.
+-   git status - This command is used to check the status of our repository.
+-   git --version - This command is used to check the version of the Git installed on our system.
+-   git add . - This command adds all the files of a repository to the staging area, without deleted
+-   git add -a - stages all the content
+-   git add -u - stages modified and deleted, without new
+-   git commit -m “message” - This command is used to commit all the changes. It creates a “save point,” i.e., we can revert to the old savepoint when needed.
+-   git log - This command is used to view the history of commits for a repository.
+-   git config --global user.name(http://user.name) “Name” - This command is used to configure or set the user name.
+-   git config --global user.email “email id” - This command is used to set email.
+-   git config --global --edit : edit username and email using VIM
+-   **git branch -d branch_name** - It will delete the specified branch from the local repository.
+
+Git HUB commands::
+
+-   git remote add .commailto:origin git@githubgit@github.com)codewithharry/Git-tut.git - links remote repo to local
+-   git push -u origin master - push changes to the remote repo master branch
+-   git pull origin master - pull changes made in the remote repo
+-   git diff filename - see changes made on the latest commit
+-   **git branch branch_name** - This command will create a new branch with the specified name.
+-   **git branch -** This command will show all the available branches present in the repository
+-   **git checkout branch_name** - This command will switch the master branch to the specified branch name.
+-   **git push origin branch_name** - It will push all the changes of the specified branch to the remote repository.
+-   **git merge branch_name** It will merge all the content of the specified branch with the master branch.
+-   **git push origin --delete branch_name** - It will delete the specified branch from the remote repository
