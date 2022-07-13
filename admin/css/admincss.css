@@ -1,26 +1,33 @@
-*{
-    margin:0px;
-    padding:0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
 }
 
-
-.loginPanel{
-    height: calc(100vh);
-    width: 400px;
-    border: 15px solid rgba(18, 71, 229, 0.269);
-    padding: 60px;
-    margin: 20px;
-    line-height: 20px;
-    float: left;
-
+.loginPanel {
+  height: calc(100vh-10px);
+  width: 400px;
+  border: 15px solid rgba(47, 24, 226, 0.269);
+  padding: 60px;
+  margin: 20px;
+  margin-left: 50px;
+  line-height: 20px;
+  float: left;
 }
-.board
-{
-    float:right;
-    list-style: none;
-    text-align: justify;
-    background-image: url("images/");
+.board {
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 50px;
+  background-image: url("../../images/frontgate.JPG");
 }
-
+.board a {
+  text-decoration: none;
+  color: tomato;
+}
+.board ul li{
+    font-style:bold;
+    font-weight: 600;
+}
