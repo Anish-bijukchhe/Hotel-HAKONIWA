@@ -23,12 +23,12 @@
 
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                About 
+                About
 
             </li>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-               Gallery
+                Gallery
 
             </li>
             </li>
