@@ -25,5 +25,8 @@ nav ul li{
 }
 .showcase{
     text-align: center;
+    width: 100%;
+    height:calc(100vh-300px);
+    padding-top: 100px;
 
 }
