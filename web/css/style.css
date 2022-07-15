@@ -5,7 +5,7 @@
     font-weight: 400;
 }
 nav{
-    background-color: rgba(156, 209, 191, 0.349);
+    background-color: rgba(60, 176, 137, 0.635);
     height: 50px;
     width:100%;
     text-decoration-style: none;
@@ -22,6 +22,10 @@ nav ul li{
     float:left;
     border: 5px;
     margin-left: 15px;
+}
+.navbar{
+    font-size: 40px;
+    text-align: center;
 }
 .showcase{
     text-align: center;

@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../web/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Scratch</h1>
+    <h1>Hotel Hakoniwa</h1>
     <!-- NAV BAR STARTS -->
     <nav class="navbar">
         <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                home
+                Home
 
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                service
+                Service
 
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">

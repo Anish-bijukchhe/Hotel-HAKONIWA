@@ -7,7 +7,7 @@
 
 .loginPanel {
   height: calc(100vh-10px);
-  width: 400px;
+  width: 40%;
   border: 15px solid rgba(47, 24, 226, 0.269);
   padding: 60px;
   margin: 20px;
@@ -21,7 +21,7 @@
   text-align: center;
   font-weight: 600;
   margin-top: 50px;
-  background-image: url("../../images/frontgate.JPG");
+  width:60% ;
 }
 .board a {
   text-decoration: none;
