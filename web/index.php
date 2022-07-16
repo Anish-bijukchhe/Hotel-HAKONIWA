@@ -1,36 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-
+<?php
+include("inc/header.php");
+?>
 <body>
-    <h1>Hotel Hakoniwa</h1>
-    <!-- NAV BAR STARTS -->
-   <?php
-   include("inc/navbar.php");
-   ?>
-    <!-- nav bar end here -->
-    <!-- SECTION STARTS -->
-    <section class="showcase">
-        <div class="banner">
-            <h3> Stay where you feel Happy and Secure.<h3>
-
-                <h2>Hotel Hakoniwa</h2> 
-               <button ><a href="aboutus.php">More about us</a></button>
-
-        </div>
-
-    </section>
-    <!-- SECTION END -->
-    <!-- Footer section starts -->
     
-    <!-- Footer section ends -->
-</body>
 
-</html>
+<!--Header Area -->
+<?php
+  include("inc/navbar.php");
+  ?>
+<!--Header Area -->
+
+<!--Banner Area -->
+<?php
+  include("inc/banner.php");
+  ?>
+<!--Banner Area -->
+
+<!-- Accomodation Area  -->
+<?php
+  include("inc/accomodation.php");
+  ?>
+<!-- Accomodation Area  -->
+
+<!-- Facilities Area  -->
+<?php
+    include("inc/facility.php");
+    ?>
+<!-- Facilities Area  -->
+
+<!-- About History Area  -->
+<?php
+    include("inc/history.php");
+    ?>
+<!-- About History Area  -->
+
+<!-- Testimonial Area  -->
+<?php
+    include("inc/testimonial.php");
+    ?>
+
+<!-- Testimonial Area  -->
+
+<!-- Latest Blog Area  -->
+<?php
+    include("inc/recentblog.php");
+    ?>
+<!-- Recent Area  -->
+
+<!-- start footer Area  -->
+<?php
+    include("inc/footer.php");
+    ?>

@@ -33,7 +33,7 @@
         </form>
     </section>
     <section class="board">
-        <img src="../images/logo.png" alt="hotel image">
+        <a href="../web/index.php"><img src="../images/logo.png" alt="hotel image"></a>
         <ul style="margin:20px;padding:30px;">
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Instagram</a></li>
